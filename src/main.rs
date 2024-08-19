@@ -1,4 +1,13 @@
+
+mod renderer;
+mod app;
+
 fn main() {
-    println!("Hello, world!");
-    // hello world 
+    
+    // init graphics
+    // init other stuff
+
+    loop {
+        // main loop
+    }
 }
