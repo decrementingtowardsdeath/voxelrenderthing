@@ -11,7 +11,7 @@ impl Window {
     pub fn new(width: usize, height: usize, title: &str) -> Self {
         
         let window = match minifb::Window::new(
-            "Test - ESC to exit",
+            title,
             width,
             height,
             minifb::WindowOptions::default(),
