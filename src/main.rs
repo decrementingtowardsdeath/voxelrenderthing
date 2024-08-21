@@ -11,7 +11,7 @@ fn main() {
     
     // init graphics
     // init other stuff
-    let mut window = Window::new(640, 480, "Test Window");
+    let window = Window::new(640, 480, "Test Window");
     let mut app = App::new();
     
     app.init();
